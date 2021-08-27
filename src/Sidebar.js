@@ -1,10 +1,10 @@
 import React from 'react';
 import Button from './Button';
 
-const Sidebar = props => {
+const Sidebar = () => {
     return (
         <div>
-            <Button theme={props.theme}>ThemeButton</Button>
+            <Button>ThemeButton</Button>
         </div>
     );
 };
